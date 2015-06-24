@@ -1,0 +1,54 @@
+﻿body {
+  font-size: 12pt;
+}
+
+#cssheader {
+  background-color: #A92443;
+}
+
+#profil {
+  border-radius: 20px;
+  margin: 25px 25px;
+}
+
+#cssh1 {
+  margin: 25px 25px;
+}
+
+#cssspan {
+  margin-left: 25px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16pt;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 16pt;
+  color: gray;
+}
+
+#cssnavigation {
+  text-align: middle;
+  text-align: center;
+  background-color: #A92443;
+  border-radius: 10px;
+  margin: 25px 15px;
+}
+
+#cssmain {
+  background-color: gray;
+}
+
+#cssfooter {
+  background-color: gray;
+}
+
+.progress-bar {
+  background-color: #A92443;
+}
