@@ -3,12 +3,13 @@
 }
 
 #cssheader {
-  background-color: #A92443;
+  /*background-color: #A92443;*/
+  background-color: gray;
 }
 
 #profil {
   border-radius: 20px;
-  margin: 25px 25px;
+  margin: 40px 15px;
 }
 
 #cssh1 {
