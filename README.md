@@ -2,28 +2,28 @@
 
 Creating a Curriculum vitae webpage, using Boostrap CSS and development tools.
 
-### Development environment
+## Development environment
 
-- Install development environment
+### Install development environment
 
-1. Download and install Node.js to get npm:
+- Download and install Node.js to get npm:
 * [Node.js] - A platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. It allows to run JavaScript outside of the browser.
 
-2. Use npm to install yeoman (project skeletons generator - scaffolding), bower (web dependencies manager) and grunt (task runner):
+- Use npm to install yeoman (project skeletons generator - scaffolding), bower (web dependencies manager) and grunt (task runner):
 ```sh
 $ npm install -g yo bower grunt-cli
 ```
 
-3. Use npm to install the desired yeoman generator:
+- Use npm to install the desired yeoman generator:
 ```sh
 $ npm install -g generator-webapp
 ```
 * [Yeoman generator]
 
-4. Download and install GitHub Windows to get yo:
+- Download and install GitHub Windows to get yo:
 * [GitHub Windows]
 
-### Create a new project
+## Create a new project
 
 - Create project folder in the directory C:\Users\username\Documents\GitHub
 
@@ -38,7 +38,7 @@ $ yo webapp
 
 * Select Bootstrap.
 
-### Sign up for GitHub
+## Sign up for GitHub
 
 - Suscribe a GitHub account
 * [GitHub]
