@@ -1,28 +1,40 @@
-﻿body {
-  font-size: 12pt;
+﻿/*Mon style*/
+
+body {
+  font-size: 14pt;
 }
 
-#cssheader {
-  /*background-color: #A92443;*/
+#cssheader, #cssmain, #cssfooter {
   background-color: gray;
 }
 
-#profil {
-  border-radius: 20px;
-  margin: 40px 15px;
+h2 {
+  margin: 20px 10px;
 }
 
 #cssh1 {
   margin: 25px 25px;
 }
 
-#cssspan {
-  margin-left: 25px;
-  margin-right: 5px;
-  margin-bottom: 25px;
+#profil {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 30px;
 }
 
-a {
+#cssspan {
+  margin: 15px 10px 15px 15px;
+}
+
+#cssnavigation {
+  text-align: center;
+  background-color: #A92443;
+  border-radius: 10px;
+  margin: 25px 25px;
+}
+
+a:link, a:visited , a:active{
   text-decoration: none;
   font-size: 16pt;
   color: black;
@@ -34,22 +46,38 @@ a:hover {
   color: gray;
 }
 
-#cssnavigation {
-  text-align: middle;
-  text-align: center;
-  background-color: #A92443;
-  border-radius: 10px;
-  margin: 25px 15px;
+.almargin {
+  margin: 20px 10px;
 }
 
-#cssmain {
-  background-color: gray;
+.last {
+  margin-bottom: 25px;
 }
 
-#cssfooter {
-  background-color: gray;
+.year {
+  color: black;
+}
+
+h3 {
+  margin: 20px 25px;
+}
+
+#p1, #p2, #p3, #p4 {
+  margin-bottom: 25px;
+}
+
+.progress {
+  margin: 20px 25px;
 }
 
 .progress-bar {
   background-color: #A92443;
+}
+
+canvas {
+  margin: 20px 25px;
+}
+
+#up {
+  margin-bottom: 25px;
 }
