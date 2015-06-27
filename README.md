@@ -6,44 +6,40 @@ Creating a Curriculum vitae webpage, using Boostrap CSS and development tools.
 
 ### Install development environment
 
-- Download and install Node.js to get npm:
-* [Node.js] - A platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. It allows to run JavaScript outside of the browser.
+- Download and install [Node.js] (it allows to run JavaScript outside of the browser) to get npm:
 
 - Use npm to install yeoman (project skeletons generator - scaffolding), bower (web dependencies manager) and grunt (task runner):
 ```sh
 $ npm install -g yo bower grunt-cli
 ```
 
-- Use npm to install the desired yeoman generator:
+- Use npm to install the desired [yeoman generator]:
 ```sh
 $ npm install -g generator-webapp
 ```
-* [Yeoman generator]
 
-- Download and install GitHub Windows to get yo:
-* [GitHub Windows]
+- Download and install [GitHub Windows] to get yo
 
 ## Create a new project
 
-- Create project folder in the directory C:\Users\username\Documents\GitHub
+- Create project folder in the default GitHub directory
 
 > Example: C:\Users\melissa.voirol\Documents\GitHub\monCV
 
 - Open Git Shell from your project directory:
 
-- Use yeoman generator to scaffold a new application:
+1. Use yeoman generator to scaffold a new application:
 ```sh
 $ yo webapp
 ```
 
-* Select Bootstrap.
+2. Select Bootstrap
 
 ## Sign up for GitHub
 
-- Suscribe a GitHub account
-* [GitHub]
+- Suscribe a [GitHub] account
 
-- Create a new repository like myproject.github.io
+- Create a new repository
 
 > Example: melissavoirol.github.io
 
@@ -68,9 +64,13 @@ $ grunt serve
 
 Edit a file and watch livereload in action.
 
-- Stop the server (ctrl+c)
+- Stop the server:
+> ctrl+c
+
+## Access your final CV site
+* Go to http://melissavoirol.github.io/
 
 [Node.js]:https://nodejs.org/
-[Yeoman generator]:https://github.com/yeoman/generator-webapp
+[yeoman generator]:https://github.com/yeoman/generator-webapp
 [GitHub Windows]:https://windows.github.com/
 [GitHub]:https://github.com/
